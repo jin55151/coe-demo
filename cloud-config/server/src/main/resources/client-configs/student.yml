@@ -1,0 +1,13 @@
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+dataUrl: url-dev-database
+
+---
+spring:
+  config:
+    activate:
+      on-profile: sit
+dataUrl: url-sit-database
